@@ -1,0 +1,11 @@
+.sc-title {
+  margin-bottom: 2.4rem;
+  line-height: 1.22;
+  font-size: 3.6rem;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  color: #fff;
+}
+#sc-survey .sc-title {
+  color: #202c5f;
+}

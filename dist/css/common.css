@@ -1,0 +1,36 @@
+/* common styles */
+html, body {
+  font-size: 62.5%;
+  font-family: Roboto, Helvetica, Arial, Verdana, sans-serif;
+  letter-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+select,
+input,
+textarea,
+button {
+  outline: 0;
+}
+
+.blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  margin: -1px;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
